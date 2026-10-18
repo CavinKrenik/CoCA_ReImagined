@@ -21,11 +21,13 @@ function MobilePage({ page }) {
   if (page === 2) return (
     <section className="mobile-page mobile-artists">
       <div className="mobile-artist-links">
+        <span className="eyebrow">Artists at CoCA</span>
         <h2>Built with artists</h2>
-        <p>Discover artist projects, public programs, and the people shaping CoCA.</p>
-        <TextLink href={liveLinks.directory}>Artist directory</TextLink>
-        <TextLink href={liveLinks.events}>Public programs</TextLink>
-        <TextLink href={liveLinks.calls}>Opportunities</TextLink>
+        <div className="mobile-artist-shortcuts">
+          <TextLink href={liveLinks.directory}>Directory</TextLink>
+          <TextLink href={liveLinks.events}>Programs</TextLink>
+          <TextLink href={liveLinks.calls}>Opportunities</TextLink>
+        </div>
       </div>
       <div className="mobile-artist-feature">
         <img src="./assets/saldanha.webp" alt="Crocodile Tears by Suneeva Saldanha" />
