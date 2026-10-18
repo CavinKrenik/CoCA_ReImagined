@@ -43,8 +43,10 @@ export default function DesktopSite() {
 
         <section className="visit-section" id="visit">
           <div className="visit-art">
-            <img className="visit-feature-image" src="./assets/saldanha.webp" alt="Crocodile Tears by Suneeva Saldanha" />
-            <div className="visit-art-caption"><span className="eyebrow">Featured artwork</span><strong>Crocodile Tears</strong><small>Suneeva Saldanha</small></div>
+            <div className="visit-art-frame">
+              <img className="visit-feature-image" src="./assets/saldanha.webp" alt="Crocodile Tears by Suneeva Saldanha" />
+              <div className="visit-art-caption"><span className="eyebrow">Featured artwork</span><strong>Crocodile Tears</strong><small>Suneeva Saldanha</small></div>
+            </div>
           </div>
           <div className="visit-copy"><span className="eyebrow muted">Plan your visit</span><h2>Make room for something unexpected.</h2><p><strong>Hours</strong> Thu–Sat, 11am–4pm</p><p><strong>Admission</strong> Free; donations welcome</p><p><strong>Access</strong> Transit, parking, and accessibility details</p><div className="button-row"><ActionButton href={liveLinks.maps}>Directions</ActionButton><ActionButton inverse href={liveLinks.events}>Visit details</ActionButton></div></div>
         </section>
