@@ -14,7 +14,6 @@ export default function DesktopSite() {
       <main>
         <section className="hero">
           <div className="hero-copy">
-            <span className="eyebrow">Contemporary art in Seattle</span>
             <h1>Art should<br />move you.</h1>
             <p>Discover boundary-pushing exhibitions, meet working artists, and take part in Seattle’s longest-running contemporary art community.</p>
             <div className="button-row"><ActionButton href={liveLinks.maps}>Plan your visit</ActionButton><ActionButton inverse href={liveLinks.exhibitions}>View exhibitions</ActionButton></div>
